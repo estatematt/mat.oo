@@ -1,0 +1,28 @@
+{
+	"author" : "Matthew Aidekman",
+	"authors" : [  ],
+	"description" : "A pair of extremely simple abstractions for loading code once and using it in many contexts.",
+	"displayname" : "Mat.OO",
+	"extends" : "",
+	"extensible" : 0,
+	"homepatcher" : "mat.oo.overview.maxpat",
+	"max_version_max" : "none",
+	"max_version_min" : "7.2.2",
+	"name" : "mat.oo",
+	"os" : 	{
+		"macintosh" : 		{
+			"platform" : [ "ia32", "x64" ],
+			"min_version" : "10.7.x"
+		}
+,
+		"windows" : 		{
+			"platform" : [ "ia32", "x64" ],
+			"min_version" : "7"
+		}
+
+	}
+,
+	"tags" : [ "modularization", "house keeping", "organization" ],
+	"version" : ".1",
+	"website" : "http://www.estatesound.com"
+}
