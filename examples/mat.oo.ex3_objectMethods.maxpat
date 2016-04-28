@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 201.0, 434.0, 914.0, 237.0 ],
+		"rect" : [ 201.0, 434.0, 619.0, 409.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,34 @@
 		"subpatcher_template" : "MattDefaultTemplate001",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 15.25, 64.0, 587.0, 20.0 ],
+					"style" : "",
+					"text" : "Here we've added some methods to change the data in the abstraction",
+					"textcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 36.0,
+					"id" : "obj-2",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 15.25, 15.0, 537.0, 47.0 ],
+					"style" : "",
+					"text" : "3)  Storing Data in an abstraction"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "number",
 					"numinlets" : 1,
@@ -55,7 +83,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 302.0, 84.0, 150.0, 20.0 ],
+					"patching_rect" : [ 63.0, 194.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Take 6 sips"
 				}
@@ -67,7 +95,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 509.0, 86.0, 150.0, 20.0 ],
+					"patching_rect" : [ 56.0, 323.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Fill the stein back up"
 				}
@@ -80,7 +108,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 483.0, 84.0, 24.0, 24.0 ],
+					"patching_rect" : [ 30.0, 321.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -92,7 +120,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 483.0, 124.0, 160.0, 22.0 ],
+					"patching_rect" : [ 30.0, 361.0, 160.0, 22.0 ],
 					"style" : "",
 					"text" : "mat.ooCall jacksonsStein.fill"
 				}
@@ -106,7 +134,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 320.0, 153.0, 114.0, 37.0 ],
+					"patching_rect" : [ 81.0, 263.0, 114.0, 37.0 ],
 					"style" : "",
 					"text" : "returns how full after drinking"
 				}
@@ -120,7 +148,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 269.0, 159.0, 50.0, 22.0 ],
+					"patching_rect" : [ 30.0, 269.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -133,36 +161,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 572.0, 5.0, 79.0, 39.0 ],
+					"patching_rect" : [ 310.5, 153.0, 79.0, 39.0 ],
 					"style" : "",
 					"text" : "Look inside! "
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 2,
-					"fontsize" : 20.0,
-					"id" : "obj-63",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 15.0, 380.0, 29.0 ],
-					"style" : "",
-					"text" : "Example 3: Storing Data in an abstraction"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 16.0,
-					"id" : "obj-51",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 45.0, 512.0, 24.0 ],
-					"style" : "",
-					"text" : "Here we've added some methods to change the data in the abstraction"
 				}
 
 			}
@@ -173,7 +174,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 269.0, 84.0, 29.5, 22.0 ],
+					"patching_rect" : [ 30.0, 194.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "6"
 				}
@@ -186,7 +187,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 269.0, 122.0, 175.0, 22.0 ],
+					"patching_rect" : [ 30.0, 232.0, 175.0, 22.0 ],
 					"style" : "",
 					"text" : "mat.ooCall jacksonsStein.drink"
 				}
@@ -224,7 +225,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 572.0, 46.0, 266.0, 31.0 ],
+					"patching_rect" : [ 310.5, 194.0, 266.0, 31.0 ],
 					"style" : "",
 					"text" : "beerStein jacksonsStein"
 				}
@@ -279,7 +280,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "beerStein.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/mat.oo/examples",
+				"bootpath" : "~/Documents/Max 7/Packages/mat.oo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

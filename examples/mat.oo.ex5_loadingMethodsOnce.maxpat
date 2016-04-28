@@ -38,6 +38,35 @@
 		"subpatcher_template" : "MattDefaultTemplate001",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 13.5, 61.0, 587.0, 33.0 ],
+					"style" : "",
+					"text" : "Using the @parent attribute we can leave the data access methods in the abstractions, but load other methods only once!  ",
+					"textcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 36.0,
+					"id" : "obj-7",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 13.5, 12.0, 537.0, 47.0 ],
+					"style" : "",
+					"text" : "5) Loading a method once"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 3,
 					"id" : "obj-115",
@@ -61,7 +90,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 30.0, 398.0, 234.0, 26.0 ],
 					"style" : "",
-					"text" : "100 sips in romeosAde"
+					"text" : "100 sips in jillsAde"
 				}
 
 			}
@@ -339,7 +368,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 728.5, 405.0, 117.0, 22.0 ],
 									"style" : "",
-									"text" : "romeosAde.howFull"
+									"text" : "jillsAde.howFull"
 								}
 
 							}
@@ -973,34 +1002,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 2,
-					"fontsize" : 20.0,
-					"id" : "obj-63",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 15.0, 318.0, 29.0 ],
-					"style" : "",
-					"text" : "Example 5: loading a method once"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 16.0,
-					"id" : "obj-51",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 45.0, 517.0, 42.0 ],
-					"style" : "",
-					"text" : "Using the @parent attribute we can leave the data access methods in the abstractions, but load other methods only once!  "
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -1211,7 +1212,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "lemonadePitcher.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/mat.oo/examples",
+				"bootpath" : "~/Documents/Max 7/Packages/mat.oo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

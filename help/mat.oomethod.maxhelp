@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 84.0, 129.0, 640.0, 480.0 ],
+		"rect" : [ 100.0, 100.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,16 +38,41 @@
 		"subpatcher_template" : "MattDefaultTemplate001",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontface" : 2,
-					"fontsize" : 26.0,
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 16.0, 97.0, 587.0, 20.0 ],
+					"style" : "",
+					"text" : "Paired together, mat.ooCall  and mat.ooMethod allow maxers to reuse part of their patch in multiple locations",
+					"textcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 16.0, 75.0, 276.0, 20.0 ],
+					"style" : "",
+					"text" : "Allow patch reuse by mat.ooCall"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 48.0,
 					"id" : "obj-26",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 0.0, 320.0, 36.0 ],
+					"patching_rect" : [ 16.0, 13.0, 573.0, 60.0 ],
 					"style" : "",
-					"text" : "Mat.ooMethod",
-					"underline" : 1
+					"text" : "mat.ooMethod"
 				}
 
 			}
@@ -58,7 +83,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 225.0, 45.0, 38.0, 22.0 ],
+					"patching_rect" : [ 216.0, 131.0, 38.0, 22.0 ],
 					"style" : "",
 					"text" : "spicy"
 				}
@@ -71,7 +96,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 180.0, 45.0, 43.0, 22.0 ],
+					"patching_rect" : [ 171.0, 131.0, 43.0, 22.0 ],
 					"style" : "",
 					"text" : "sporty"
 				}
@@ -84,7 +109,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 525.0, 90.0, 50.0, 22.0 ],
+					"patching_rect" : [ 527.0, 161.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -98,7 +123,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 390.0, 75.0, 34.0, 22.0 ],
+					"patching_rect" : [ 381.0, 161.0, 34.0, 22.0 ],
 					"style" : "",
 					"text" : "+ 20"
 				}
@@ -113,7 +138,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 390.0, 45.0, 196.0, 26.0 ],
+					"patching_rect" : [ 381.0, 131.0, 196.0, 26.0 ],
 					"style" : "",
 					"text" : "mat.ooMethod addTwenty"
 				}
@@ -127,9 +152,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 278.0, 213.0, 24.0 ],
+					"patching_rect" : [ 21.0, 364.0, 213.0, 24.0 ],
 					"style" : "",
 					"text" : "Outlets:",
+					"textcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"underline" : 1
 				}
 
@@ -141,9 +167,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 308.0, 262.0, 74.0 ],
+					"patching_rect" : [ 21.0, 394.0, 262.0, 74.0 ],
 					"style" : "",
-					"text" : "1) arguments or bang (whatever got sent to the left inlet of ooCall\n2) an optional parent name (intended to be analagous to the \"this\" keyword in other languages)"
+					"text" : "1) arguments or bang (whatever got sent to the left inlet of ooCall\n2) an optional parent name (intended to be analagous to the \"this\" keyword in other languages)",
+					"textcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 				}
 
 			}
@@ -155,9 +182,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 218.0, 213.0, 24.0 ],
+					"patching_rect" : [ 21.0, 304.0, 213.0, 24.0 ],
 					"style" : "",
 					"text" : "Inlets",
+					"textcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"underline" : 1
 				}
 
@@ -168,9 +196,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 248.0, 175.0, 20.0 ],
+					"patching_rect" : [ 21.0, 334.0, 175.0, 20.0 ],
 					"style" : "",
-					"text" : "1) Whatever you want to return"
+					"text" : "1) Whatever you want to return",
+					"textcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 				}
 
 			}
@@ -182,9 +211,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 165.0, 213.0, 24.0 ],
+					"patching_rect" : [ 21.0, 251.0, 213.0, 24.0 ],
 					"style" : "",
 					"text" : "Arguments:",
+					"textcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"underline" : 1
 				}
 
@@ -195,9 +225,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 188.0, 101.0, 20.0 ],
+					"patching_rect" : [ 21.0, 274.0, 101.0, 20.0 ],
 					"style" : "",
-					"text" : "1) method name "
+					"text" : "1) method name ",
+					"textcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 				}
 
 			}
@@ -211,7 +242,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 30.0, 120.0, 50.0, 22.0 ],
+					"patching_rect" : [ 21.0, 206.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -226,7 +257,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 30.0, 45.0, 50.0, 22.0 ],
+					"patching_rect" : [ 21.0, 131.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -240,7 +271,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 75.0, 129.0, 22.0 ],
+					"patching_rect" : [ 21.0, 161.0, 129.0, 22.0 ],
 					"style" : "",
 					"text" : "mat.ooCall addTwenty"
 				}
@@ -261,7 +292,7 @@
 					"destination" : [ "obj-17", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 399.5, 99.0, 375.0, 99.0, 375.0, 39.0, 399.5, 39.0 ],
+					"midpoints" : [ 390.5, 185.0, 366.0, 185.0, 366.0, 125.0, 390.5, 125.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -289,7 +320,7 @@
 					"destination" : [ "obj-1", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 189.5, 70.5, 149.5, 70.5 ],
+					"midpoints" : [ 180.5, 156.5, 140.5, 156.5 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -299,7 +330,7 @@
 					"destination" : [ "obj-1", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 234.5, 70.5, 149.5, 70.5 ],
+					"midpoints" : [ 225.5, 156.5, 140.5, 156.5 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -315,14 +346,14 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "mat.ooCall.maxpat",
-				"bootpath" : "./More 3rdParty Folder/Externals/3rdParty/3pmax/mat2",
+				"name" : "mat.oocall.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/mat.oo/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mat.oomethod.maxpat",
-				"bootpath" : "./More 3rdParty Folder/Externals/3rdParty/3pmax/mat2",
+				"bootpath" : "~/Documents/Max 7/Packages/mat.oo/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}

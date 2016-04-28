@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 905.0, 207.0, 776.0, 418.0 ],
+		"rect" : [ 905.0, 207.0, 738.0, 456.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,35 @@
 		"subpatcher_template" : "MattDefaultTemplate001",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 16.0, 63.0, 587.0, 33.0 ],
+					"style" : "",
+					"text" : "In this example, oocall sends a message to oomethod, the information is processed and sent back out the outlet of oocall.",
+					"textcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 36.0,
+					"id" : "obj-1",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 16.0, 14.0, 433.0, 47.0 ],
+					"style" : "",
+					"text" : "1) Podularizing Code"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"bubblepoint" : 1.0,
 					"bubbleside" : 0,
@@ -46,23 +75,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 122.0, 262.5, 151.0, 79.0 ],
+					"patching_rect" : [ 108.0, 279.5, 151.0, 79.0 ],
 					"style" : "",
 					"text" : "a method is just a chunk of code you might want to reuse and/or label for organization"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 2,
-					"fontsize" : 20.0,
-					"id" : "obj-63",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 15.0, 280.0, 29.0 ],
-					"style" : "",
-					"text" : "Example 1: Podularizing Code"
 				}
 
 			}
@@ -73,7 +88,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 349.25, 105.0, 360.0, 60.0 ],
+					"patching_rect" : [ 335.25, 122.0, 360.0, 60.0 ],
 					"style" : "",
 					"text" : "Benefits:\n1) Complicated Patches are more readable this way.\n2) The patch to do the tonalize math is only loaded once.  In contrast, using an abstraction would load the same objects twice."
 				}
@@ -88,7 +103,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 349.25, 165.0, 300.0, 33.0 ],
+					"patching_rect" : [ 335.25, 182.0, 300.0, 33.0 ],
 					"style" : "",
 					"text" : "!! Note: Don't use delays or defer in your methods.  One message in, one message out.",
 					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
@@ -105,7 +120,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 315.0, 360.0, 405.0, 35.0 ],
+					"patching_rect" : [ 301.0, 377.0, 405.0, 35.0 ],
 					"style" : "",
 					"suppressinlet" : 1,
 					"text" : "This message is returned to the last oocall that sent a message to tonalize"
@@ -122,7 +137,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 405.0, 315.0, 285.0, 35.0 ],
+					"patching_rect" : [ 391.0, 332.0, 285.0, 35.0 ],
 					"style" : "",
 					"suppressinlet" : 1,
 					"text" : "Anything sent by oocall to 'tonalize' comes out here"
@@ -136,7 +151,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 320.0, 335.0, 50.0, 22.0 ],
+					"patching_rect" : [ 306.0, 352.0, 50.0, 22.0 ],
 					"style" : "",
 					"text" : "68."
 				}
@@ -149,23 +164,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 465.0, 291.0, 68.5, 22.0 ],
+					"patching_rect" : [ 451.0, 308.0, 68.5, 22.0 ],
 					"style" : "",
 					"text" : "70"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 16.0,
-					"id" : "obj-51",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 45.0, 452.0, 42.0 ],
-					"style" : "",
-					"text" : "In this example, oocall sends a message to oomethod, the information is processed and sent back out the outlet of oocall."
 				}
 
 			}
@@ -436,7 +437,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 30.0, 195.0, 56.0, 22.0 ],
+					"patching_rect" : [ 16.0, 212.0, 56.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -457,7 +458,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 135.0, 110.0, 22.0 ],
+					"patching_rect" : [ 16.0, 152.0, 110.0, 22.0 ],
 					"style" : "",
 					"text" : "mat.oocall tonalize"
 				}
@@ -473,7 +474,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 30.0, 105.0, 50.0, 22.0 ],
+					"patching_rect" : [ 16.0, 122.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -486,7 +487,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 30.0, 165.0, 50.0, 22.0 ],
+					"patching_rect" : [ 16.0, 182.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -758,7 +759,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 180.0, 195.0, 56.0, 22.0 ],
+					"patching_rect" : [ 166.0, 212.0, 56.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -779,7 +780,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 180.0, 135.0, 110.0, 22.0 ],
+					"patching_rect" : [ 166.0, 152.0, 110.0, 22.0 ],
 					"style" : "",
 					"text" : "mat.oocall tonalize"
 				}
@@ -795,7 +796,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 180.0, 105.0, 50.0, 22.0 ],
+					"patching_rect" : [ 166.0, 122.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -806,7 +807,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 240.0, 45.0, 45.0 ],
+					"patching_rect" : [ 16.0, 257.0, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -819,7 +820,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 180.0, 165.0, 50.0, 22.0 ],
+					"patching_rect" : [ 166.0, 182.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -1321,7 +1322,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 300.0, 291.0, 151.0, 22.0 ],
+					"patching_rect" : [ 286.0, 308.0, 151.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1342,7 +1343,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 300.0, 231.0, 132.0, 22.0 ],
+					"patching_rect" : [ 286.0, 248.0, 132.0, 22.0 ],
 					"style" : "",
 					"text" : "mat.oomethod tonalize"
 				}
@@ -1354,7 +1355,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 309.5, 348.0, 282.0, 348.0, 282.0, 205.0, 309.5, 205.0 ],
+					"midpoints" : [ 295.5, 365.0, 268.0, 365.0, 268.0, 222.0, 295.5, 222.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -1400,7 +1401,7 @@
 					"destination" : [ "obj-28", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 189.5, 234.0, 65.5, 234.0 ],
+					"midpoints" : [ 175.5, 251.0, 51.5, 251.0 ],
 					"source" : [ "obj-45", 0 ]
 				}
 
@@ -1446,7 +1447,7 @@
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 309.5, 255.0, 309.5, 255.0 ],
+					"midpoints" : [ 295.5, 272.0, 295.5, 272.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -1456,7 +1457,7 @@
 					"destination" : [ "obj-53", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 309.5, 276.0, 524.0, 276.0 ],
+					"midpoints" : [ 295.5, 293.0, 510.0, 293.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 

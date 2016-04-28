@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 201.0, 434.0, 1033.0, 480.0 ],
+		"rect" : [ 201.0, 434.0, 725.0, 464.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,34 @@
 		"style" : "",
 		"subpatcher_template" : "MattDefaultTemplate001",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 17.0, 63.5, 383.0, 20.0 ],
+					"style" : "",
+					"text" : "Here we're storing data in an abstraction in an object-oriented fashion.",
+					"textcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 36.0,
+					"id" : "obj-4",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 17.0, 14.5, 529.0, 47.0 ],
+					"style" : "",
+					"text" : "2) Storing Data in an abstraction"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-23",
 					"maxclass" : "button",
@@ -135,33 +163,6 @@
 					"patching_rect" : [ 435.0, 131.0, 79.0, 39.0 ],
 					"style" : "",
 					"text" : "Look inside! "
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 2,
-					"fontsize" : 20.0,
-					"id" : "obj-63",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 15.0, 380.0, 29.0 ],
-					"style" : "",
-					"text" : "Example 2: Storing Data in an abstraction"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 16.0,
-					"id" : "obj-51",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 45.0, 506.0, 24.0 ],
-					"style" : "",
-					"text" : "Here we're storing data in an abstraction in an object-oriented fashion."
 				}
 
 			}
@@ -295,11 +296,12 @@
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 24.0,
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 435.0, 212.0, 137.0, 22.0 ],
+					"patching_rect" : [ 435.0, 218.0, 267.0, 35.0 ],
 					"style" : "",
 					"text" : "plasticCup antwansCup"
 				}
@@ -307,11 +309,12 @@
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 24.0,
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 435.0, 172.0, 114.0, 22.0 ],
+					"patching_rect" : [ 435.0, 172.0, 220.0, 35.0 ],
 					"style" : "",
 					"text" : "plasticCup joesCup"
 				}

@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 201.0, 434.0, 936.0, 382.0 ],
+		"rect" : [ 201.0, 434.0, 932.0, 416.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,34 @@
 		"style" : "",
 		"subpatcher_template" : "MattDefaultTemplate001",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 15.25, 58.0, 587.0, 20.0 ],
+					"style" : "",
+					"text" : "Here we've added some methods to change the data in the abstraction",
+					"textcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 36.0,
+					"id" : "obj-7",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 15.25, 9.0, 537.0, 47.0 ],
+					"style" : "",
+					"text" : "4) Switching an oocall's method"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-14",
@@ -72,7 +100,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 249.5, 142.0, 151.0, 22.0 ],
 					"style" : "",
-					"text" : "dealing with janesStein"
+					"text" : "dealing with jacksonsStein"
 				}
 
 			}
@@ -237,7 +265,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 572.0, 96.0, 195.0, 31.0 ],
+					"patching_rect" : [ 637.0, 149.0, 195.0, 31.0 ],
 					"style" : "",
 					"text" : "beerStein janesStein"
 				}
@@ -327,36 +355,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 572.0, 5.0, 226.0, 39.0 ],
+					"patching_rect" : [ 637.0, 58.0, 226.0, 39.0 ],
 					"style" : "",
 					"text" : "Look inside!  (same thing as Example 3)"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 2,
-					"fontsize" : 20.0,
-					"id" : "obj-63",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 15.0, 380.0, 29.0 ],
-					"style" : "",
-					"text" : "Example 4: switching an oocall's method"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 16.0,
-					"id" : "obj-51",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 45.0, 512.0, 24.0 ],
-					"style" : "",
-					"text" : "Here we've added some methods to change the data in the abstraction"
 				}
 
 			}
@@ -418,7 +419,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 572.0, 46.0, 266.0, 31.0 ],
+					"patching_rect" : [ 637.0, 99.0, 266.0, 31.0 ],
 					"style" : "",
 					"text" : "beerStein jacksonsStein"
 				}
@@ -582,7 +583,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "beerStein.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/mat.oo/examples",
+				"bootpath" : "~/Documents/Max 7/Packages/mat.oo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
