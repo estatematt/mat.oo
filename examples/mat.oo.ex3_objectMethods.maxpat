@@ -60,7 +60,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.25, 15.0, 537.0, 47.0 ],
 					"style" : "",
-					"text" : "3)  Storing Data in an abstraction"
+					"text" : "3)  Adding abstraction Methods"
 				}
 
 			}
